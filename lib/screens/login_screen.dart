@@ -57,9 +57,9 @@ class _LoginScreenState extends State<LoginScreen> with ValidationMixin {
   }
 
   @override
-  void initState() {
+  void didChangeDependencies() {
     _getData();
-    super.initState();
+    super.didChangeDependencies();
   }
 
   @override

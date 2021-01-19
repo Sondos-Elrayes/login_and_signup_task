@@ -34,8 +34,8 @@ class _SignUpScreenState extends State<SignUpScreen> with ValidationMixin {
     _submitForm = true;
     final isValid = _registerFormKey.currentState.validate();
     if (!isValid) return;
-    _registerFormKey.currentState.save();
     _saveData();
+    _registerFormKey.currentState.save();
     await Navigator.pushNamed(context, ShowLogoScreen.routName);
   }
 
@@ -70,9 +70,9 @@ class _SignUpScreenState extends State<SignUpScreen> with ValidationMixin {
   }
 
   @override
-  void initState() {
+  void didChangeDependencies() {
     _getData();
-    super.initState();
+    super.didChangeDependencies();
   }
 
   @override
@@ -206,7 +206,7 @@ class _SignUpScreenState extends State<SignUpScreen> with ValidationMixin {
                               },
                               validator: (val) {
                                 if (val.isEmpty)
-                                  return 'the confirm password confirmation dose not match';
+                                  return 'please provide a confirmation password';
                                 if (val != _registrationData['password'])
                                   return 'the confirm password confirmation dose not match';
                                 return null;
