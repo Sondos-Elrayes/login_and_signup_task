@@ -1,16 +1,22 @@
-# login_and_sign_up_task
+# Login & Signup CAT_Reloaded Task 
 
-A new Flutter project.
+a demo for login and registration screens 
+ 
+### A few details about the project code:
 
-## Getting Started
+- it's a flutter project with shared preferences for dealing with user data 
 
-This project is a starting point for a Flutter application.
+- I used mixins to handle validations
 
-A few resources to get you started if this is your first Flutter project:
+- a beautiful design made by me 🙋‍♀. 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Check this out:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screens 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/52948095/118546026-b0222e80-b757-11eb-8540-e3ed9e2def54.jpg" height="400"/>
+<img src="https://user-images.githubusercontent.com/52948095/118547784-d1841a00-b759-11eb-9def-d3e25c4f2035.jpg" height = "400" hspace="20"/>
+<img src="https://user-images.githubusercontent.com/52948095/118548007-1019d480-b75a-11eb-8a47-a93fd4cb0d67.jpg" height="400" /> 
+<br><br>
+<img src="https://user-images.githubusercontent.com/52948095/118548102-32abed80-b75a-11eb-805f-b88fa53d7006.jpg" height="400"/>
+</p>
